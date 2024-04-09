@@ -1,10 +1,10 @@
 import {createRouter, createWebHistory} from 'vue-router'
 
 import Home from "./../components/Home.vue"
-import Artists from "./../components/Artists.vue"
-import Exhibitions from "./../components/Exhibitions.vue"
-import OurStory from "./../components/OurStory.vue"
-import Shop from "./../components/Shop.vue"
+import AboutUs from "./../components/AboutUs.vue"
+import Projects from "./../components/Projects.vue"
+import LandscapingServices from "./../components/LandscapingServices.vue"
+import ContactUs from "../components/ContactUs.vue"
 
 const routes = [
     {
@@ -13,24 +13,24 @@ const routes = [
         component: Home,
     },
     {
-        path: '/artists',
-        name: 'artists',
-        component: Artists,
+        path: '/aboutus',
+        name: 'aboutus',
+        component: AboutUs,
     },
     {
-        path: '/exhibitions',
-        name: 'exhibitions',
-        component: Exhibitions,
+        path: '/projects',
+        name: 'projects',
+        component: Projects,
     },
     {
-        path: '/ourstory',
-        name: 'ourstory',
-        component: OurStory,
+        path: '/landscapingservices',
+        name: 'landscapingservices',
+        component: LandscapingServices,
     },
     {
-        path: '/shop',
-        name: 'shop',
-        component: Shop,
+        path: '/contactus',
+        name: 'contactus',
+        component: ContactUs,
     },
     
 ]

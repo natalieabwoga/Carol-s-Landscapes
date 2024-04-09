@@ -1,6 +1,8 @@
 import { createApp } from 'vue'
 import App from './App.vue'
 
+import "@fontsource/italiana"
+
 import router from './routes'
 
 // Vuetify

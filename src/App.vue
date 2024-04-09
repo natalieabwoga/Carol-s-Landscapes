@@ -4,10 +4,21 @@ import Navbar from './components/Navbar.vue'
 
 <template>
   <v-app>
-    <navbar></navbar>
-    
-    <main>
-      <RouterView></RouterView>
-    </main>
+    <div class="background">
+      <navbar></navbar>
+      
+      <main>
+        <RouterView></RouterView>
+      </main>
+    </div>
   </v-app>
-  </template>
+</template>
+
+<style scoped>
+.background {
+  background-image: url('@/assets/images/leafprintedited.jpg'); 
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+}
+</style>

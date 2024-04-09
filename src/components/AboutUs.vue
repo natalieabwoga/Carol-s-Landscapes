@@ -1,5 +1,5 @@
 <template>
-    <div id = 'Artists'>
+    <div id = 'AboutUs'>
         <v-container>
             <v-container>
                 <v-layout column>

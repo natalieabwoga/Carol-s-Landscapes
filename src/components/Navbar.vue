@@ -1,28 +1,54 @@
-<script>
-import Home from "./Home.vue"
-import Artists from "./Artists.vue"
-import Exhibitions from "./Exhibitions.vue"
-import OurStory from "./OurStory.vue"
-import Shop from "./Shop.vue"
-</script>
-
 <template>
-    <v-app-bar color="black" >
-        <div>
-            <v-btn to="/" color="#E8B9AB" dark >Home </v-btn>
+    <v-app>
+      <v-app-bar color="#395A30" dense>
+        <div class="navbar-item">
+          <img src="/src/assets/images/logo.jpg" alt="Logo" class="logo"> 
         </div>
-        <div>
-            <v-btn to="/Artists" color="#ADBCA5" dark >Artists </v-btn>
+        <div class="navbar-item flex-grow">
+          <v-btn to="/" class="nav-link" color="black" dark> Home</v-btn>
         </div>
-        <div>
-            <v-btn to="/Exhibitions" color="#E09891" dark >Exhibitions </v-btn>
+        <div class="navbar-item flex-grow">
+          <v-btn to="/AboutUs" class="nav-link" color="black" dark>About Us</v-btn>
         </div>
-        <div>
-            <v-btn to="/OurStory" color="#ADBCA5" dark >OurStory </v-btn>
+        <div class="navbar-item flex-grow">
+          <v-btn to="/Projects" class="nav-link" color="black" dark>Projects</v-btn>
         </div>
-        <div>
-            <v-btn to="/Shop" color="#E8B9AB" dark >Shop </v-btn>
+        <div class="navbar-item flex-grow">
+          <v-btn to="/LandscapingServices" class="nav-link" color="black" dark>Landscaping Services</v-btn>
         </div>
-        
-</v-app-bar>
-</template>
+        <div class="navbar-item flex-grow">
+          <v-btn to="/ContactUs" class="nav-link" color="black" dark>Contact Us</v-btn>
+        </div>
+      </v-app-bar>
+    </v-app>
+  </template>
+  
+  <style>
+
+  .nav-link {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: italiana, sans-serif;
+    font-weight: bolder;
+    font-size: 200px;
+    width: 100%;
+
+  }
+  
+  .logo {
+    width: 60px; 
+    margin-right: 10px; 
+    margin-bottom: -10px; 
+  }
+  
+  .navbar-item {
+    margin: 0 15px; 
+  }
+  
+  .flex-grow {
+    flex-grow: 1; 
+  }
+  </style>
+  
+  
