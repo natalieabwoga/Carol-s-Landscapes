@@ -1,24 +1,37 @@
 <script setup>
+import { ref } from 'vue';
 import Navbar from './components/Navbar.vue'
+import Footer from './components/Footer.vue'
+import SplashScreen from './components/SplashScreen.vue';
+
+
+const showSplash = ref(true);
+
+setTimeout(() => {
+  showSplash.value = false;
+}, 2000);
 </script>
 
 <template>
-  <v-app>
-    <div class="background">
+  <v-app> 
+    <SplashScreen v-if="showSplash" />
+    <div v-else>
       <navbar></navbar>
-      
+
       <main>
         <RouterView></RouterView>
       </main>
+
+      <Footer></Footer>
     </div>
   </v-app>
 </template>
 
-<style scoped>
-.background {
-  background-image: url('@/assets/images/leafprintedited.jpg'); 
-  background-size: cover;
-  background-position: center;
-  height: 100vh;
-}
-</style>
+
+
+
+
+
+
+
+

@@ -1,37 +1,46 @@
 <script>
 import Home from "./Home.vue"
 import AboutUs from "./AboutUs.vue"
+import GardenCentre from './GardenCentreandNursery.vue'
 import Projects from "./Projects.vue"
 import LandscapingServices from "./LandscapingServices.vue"
 import ContactUs from "./ContactUs.vue"
 </script>
 
 <template>
-    <v-app>
-      <v-app-bar color="#395A30" dense>
+      <v-app-bar color="#395A30" >
         <div class="navbar-item">
-          <img src="/src/assets/images/logo.jpg" alt="Logo" class="logo"> 
+          <img src="/src/assets/images/logo.jpg" alt="Logo" class="logo1"> 
         </div>
         <div class="navbar-item flex-grow">
-          <v-btn to="/" class="nav-link" color="black" dark> Home</v-btn>
+          <v-btn to="/" style="font-size: 25px" class="nav-link" color="white" dark> Home</v-btn>
         </div>
         <div class="navbar-item flex-grow">
-          <v-btn to="/AboutUs" class="nav-link" color="black" dark>About Us</v-btn>
+          <v-btn to="/AboutUs"  style="font-size: 25px"class="nav-link" color="white" dark>About Us</v-btn>
         </div>
         <div class="navbar-item flex-grow">
-          <v-btn to="/Projects" class="nav-link" color="black" dark>Projects</v-btn>
+          <v-btn to="/GardenCentreandNursery" style="font-size: 25px" class="nav-link" color="white" dark>Garden Centre and Nursery</v-btn>
         </div>
         <div class="navbar-item flex-grow">
-          <v-btn to="/LandscapingServices" class="nav-link" color="black" dark>Landscaping Services</v-btn>
+          <v-btn to="/Projects"style="font-size: 25px"  class="nav-link" color="white" dark>Projects</v-btn>
         </div>
         <div class="navbar-item flex-grow">
-          <v-btn to="/ContactUs" class="nav-link" color="black" dark>Contact Us</v-btn>
+          <v-btn to="/LandscapingServices"style="font-size: 25px"  class="nav-link" color="white" dark>Landscaping Services</v-btn>
+        </div>
+        <div class="navbar-item flex-grow">
+          <v-btn to="/ContactUs"style="font-size: 25px"  class="nav-link" color="white" dark>Contact Us</v-btn>
         </div>
       </v-app-bar>
-    </v-app>
   </template>
   
   <style>
+
+.logo1 {
+    padding: 5px;
+    width: 80px;
+    height: auto; 
+    display: inline-block;
+  }
 
   .nav-link {
     display: flex;
@@ -44,19 +53,15 @@ import ContactUs from "./ContactUs.vue"
 
   }
   
-  .logo {
-    width: 60px; 
-    margin-right: 10px; 
-    margin-bottom: -10px; 
-  }
-  
   .navbar-item {
     margin: 0 15px; 
+    position: relative;
   }
   
   .flex-grow {
     flex-grow: 1; 
   }
+
   </style>
   
   

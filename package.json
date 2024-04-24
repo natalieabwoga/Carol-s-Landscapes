@@ -11,7 +11,11 @@
   "dependencies": {
     "@fontsource/italiana": "^5.0.18",
     "@fontsource/open-sans": "^5.0.27",
+    "firebase": "^10.11.0",
+    "jquery": "^3.7.1",
     "vue": "^3.4.15",
+    "vue-ai-carousel": "^1.1.1",
+    "vue-carousel-3d": "^1.0.1",
     "vue-router": "^4.3.0",
     "vuetify": "^3.5.14"
   },
