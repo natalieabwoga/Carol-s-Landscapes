@@ -1,7 +1,7 @@
 <script>
 import Home from "./Home.vue"
 import AboutUs from "./AboutUs.vue"
-import GardenCentre from './GardenCentreandNursery.vue'
+import GardenShopandNursery from './GardenShopandNursery.vue'
 import Projects from "./Projects.vue"
 import LandscapingServices from "./LandscapingServices.vue"
 import ContactUs from "./ContactUs.vue"
@@ -19,7 +19,7 @@ import ContactUs from "./ContactUs.vue"
           <v-btn to="/AboutUs"  style="font-size: 25px"class="nav-link" color="white" dark>About Us</v-btn>
         </div>
         <div class="navbar-item flex-grow">
-          <v-btn to="/GardenCentreandNursery" style="font-size: 25px" class="nav-link" color="white" dark>Garden Centre and Nursery</v-btn>
+          <v-btn to="/GardenShopandNursery" style="font-size: 25px" class="nav-link" color="white" dark>Garden Shop and Nursery</v-btn>
         </div>
         <div class="navbar-item flex-grow">
           <v-btn to="/Projects"style="font-size: 25px"  class="nav-link" color="white" dark>Projects</v-btn>

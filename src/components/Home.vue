@@ -7,7 +7,7 @@
       </p>
             
       <div class="text-wrapper">
-      <div class="right-text">
+      <div class="right-text1">
         <i class="fas fa-map-marker-alt"></i>
         <p>Plant Nursery at No. 746A, Githunguri Road Estate Gate A, Githunguri Road, Kileleshwa.</p>
       </div>
@@ -43,8 +43,8 @@
 }
 
 .left-text,
-.right-text {
-  font-family: italiana, sans-serif;
+.right-text1 {
+  font-family: "Inria Serif", serif;
   font-weight: 700;
   font-size: 35px;
   flex: 1;

@@ -7,7 +7,7 @@ import AboutUs from "./../components/AboutUs.vue"
 import Projects from "./../components/Projects.vue"
 import LandscapingServices from "./../components/LandscapingServices.vue"
 import ContactUs from "../components/ContactUs.vue"
-import GardenCentreandNursery from '../components/GardenCentreandNursery.vue'
+import GardenShopandNursery from '../components/GardenShopandNursery.vue'
 
 const routes = [
     {
@@ -21,9 +21,9 @@ const routes = [
         component: AboutUs,
     },
     {
-        path: '/gardencentreandnursery',
-        name: 'gardencentreandnursery',
-        component: GardenCentreandNursery
+        path: '/gardenshopandnursery',
+        name: 'gardenshopandnursery',
+        component: GardenShopandNursery
     },
     {
         path: '/projects',
