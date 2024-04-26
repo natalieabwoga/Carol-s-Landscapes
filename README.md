@@ -1,5 +1,7 @@
 # Carol's Landscapes
 
+Link to live site: https://carol-s-landscapes-1.onrender.com/
+
 Description about the project:
 "Introducing the next evolution in landscaping web design: Carol's Landscapes. As the lead developer behind this project, we're seamlessly integrating captivating visuals, intuitive navigation, and responsive functionality. From showcasing stunning portfolio pieces to streamlining client interactions, our goal is to create a digital experience that mirrors the beauty and precision of Carol's craftsmanship. Join us as we code a virtual gateway to nature's wonders with Carol's Landscapes."
 
