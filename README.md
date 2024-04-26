@@ -1,6 +1,11 @@
 # Carol's Landscapes
 
-This template should help get you started developing with Vue 3 in Vite.
+Description about the project
+"Introducing the next evolution in landscaping web design: Carol's Landscapes. As the lead developer behind this project, we're seamlessly integrating captivating visuals, intuitive navigation, and responsive functionality. From showcasing stunning portfolio pieces to streamlining client interactions, our goal is to create a digital experience that mirrors the beauty and precision of Carol's craftsmanship. Join us as we code a virtual gateway to nature's wonders with Carol's Landscapes."
+
+![Screenshot (286)](https://github.com/natalieabwoga/Carol-s-Landscapes/assets/159112131/4fd6d519-ce0b-4dbe-aa18-15c8d9ab10fb)
+
+
 
 ## Recommended IDE Setup
 
@@ -27,3 +32,14 @@ npm run dev
 ```sh
 npm run build
 ```
+## Screenshots of Carol's Landscapes
+About Us Page
+![Screenshot (286)](https://github.com/natalieabwoga/Carol-s-Landscapes/assets/159112131/12d9df20-413a-433e-9938-91eb83f2c529)
+
+Contact Us Page
+![Screenshot (287)](https://github.com/natalieabwoga/Carol-s-Landscapes/assets/159112131/f7b83e3c-faf3-4c7c-98df-683ab83cec68)
+
+Landscaping Services and Solutions Page
+![Screenshot (288)](https://github.com/natalieabwoga/Carol-s-Landscapes/assets/159112131/bed5946f-6ead-481f-9650-53d8e7788e0f)
+
+
