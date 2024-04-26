@@ -3,9 +3,6 @@
 Description about the project
 "Introducing the next evolution in landscaping web design: Carol's Landscapes. As the lead developer behind this project, we're seamlessly integrating captivating visuals, intuitive navigation, and responsive functionality. From showcasing stunning portfolio pieces to streamlining client interactions, our goal is to create a digital experience that mirrors the beauty and precision of Carol's craftsmanship. Join us as we code a virtual gateway to nature's wonders with Carol's Landscapes."
 
-![Screenshot (286)](https://github.com/natalieabwoga/Carol-s-Landscapes/assets/159112131/4fd6d519-ce0b-4dbe-aa18-15c8d9ab10fb)
-
-
 
 ## Recommended IDE Setup
 
